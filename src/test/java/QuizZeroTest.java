@@ -1,4 +1,4 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.*;
 
@@ -48,7 +48,7 @@ public class QuizZeroTest {
         assertEquals(4, QuizZero.Qfive(2, 2));
         assertEquals(4, QuizZero.Qfive(2, 3));
         assertEquals(150, QuizZero.Qfive(75, 77));
-        assertEquals(6, QuizZero.Qfive(3, 3));
+         assertEquals(6, QuizZero.Qfive(3, 3));
         assertEquals(2, QuizZero.Qfive(1, 1));
     }
 
